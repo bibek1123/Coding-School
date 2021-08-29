@@ -1,0 +1,60 @@
+@media only screen and (max-width:1162px) {
+    .firstSection{
+        height:57vh;
+    }
+    .main-box{
+        height: 51vh;
+        width:60vw;
+        flex-direction: column-reverse;
+    }
+    .firsthalf{
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
+    .firsthalf p{
+        width:73vw;
+    } 
+    .secondhalf {
+        width: 79vw;
+        padding: 3rem;
+    }
+
+.secondhalf img{
+        width:60vw;
+    }
+    .navbar{
+        flex-direction: column;
+        transition: all .7s ease-out;
+        height:75vh;
+    }
+    .nav-list{
+        flex-direction: column;
+    }
+    .rightnav{
+        flex-direction: column;
+    }
+    .burger{
+        display:block;
+    }
+    .h-nav-resp{
+        height: 0vh;
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
+.secondSection{
+    flex-direction: column;
+    margin: 1rem 0rem;
+}
+
+.sech1{
+    font-size: 1.35rem;
+}
+.thumb img{
+    width:95vw;
+}
+}

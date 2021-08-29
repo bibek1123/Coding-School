@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Coding School!</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/response.css">
+    <script src="https://kit.fontawesome.com/f2a44df583.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar background h-nav-resp">
+        <ul class="nav-list v-class-resp">
+            <div class="logo"><img src="image/img.jpg" alt="logo"></div>
+            <li><a href="#">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+        <div class="rightnav v-class-resp">
+            <input type="text" name="search" id="search" placeholder="Type or Search">
+            <button class="btn-sm"> Search</button>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+    <section class="background firstSection">
+        <div class="main-box">
+            <div class="firsthalf">
+                <h1>Coding is the future<h1>
+                        <p>Sign your child up for remote coding lessons and camps taught by top computer scientists.</p>
+                        <div class="buttons">
+                            <button class="btn">Learn More</button>
+                            <button class="btn">Register Now</button>
+                        </div>
+            </div>
+            <div class="secondhalf"><img src="image/img.jpg" alt=""></div>
+        </div>
+
+    </section>
+    <section class="secondSection" id="services">
+        <div class="para">
+            <h1 class="sech1">FRONTEND: HTML CSS JAVASCRIPTS:</h1>
+            <p class="secp">Hyper Text Markup Language(HTML):-
+                Hyper Text Markup Language (HTML) is the backbone of any website development process, without which a
+                web page does not exist. Hypertext means that text has links, termed hyperlinks, embedded in it. When a
+                user clicks on a word or a phrase that has a hyperlink, it will bring another web-page. A markup
+                language indicates text can be turned into images, tables, links, and other representations. It is the
+                HTML code that provides an overall framework of how the site will look. HTML was developed by Tim
+                Berners-Lee. The latest version of HTML is called HTML5 and was published on October 28, 2014 by the W3
+                recommendation. This version contains new and efficient ways of handling elements such as video and
+                audio files.</p>
+            <p class="secp">
+                Cascading Style Sheets (CSS):-
+                Cascading Style Sheets (CSS) controls the presentation aspect of the site and allows your site to have
+                its own unique look. It does this by maintaining style sheets which sit on top of other style rules and
+                are triggered based on other inputs, such as device screen size and resolution.</p>
+            <p class="secp">
+                JavaScript(Js):-
+                JavaScript is an event-based imperative programming language (as opposed to HTML's declarative language
+                model) that is used to transform a static HTML page into a dynamic interface. JavaScript code can use
+                the Document Object Model (DOM), provided by the HTML standard, to manipulate a web page in response to
+                events, like user input.
+
+                Using a technique called AJAX, JavaScript code can also actively retrieve content from the web
+                (independent of the original HTML page retrieval), and also react to server-side events as well, adding
+                a truly dynamic nature to the web page experience.</p>
+        </div>
+        <div class="thumb">
+            <img src="https://source.unsplash.com/1600x900/?html,css,javascripts" alt="">
+        </div>
+    </section>
+    <hr>
+    <section class="secondSection reverse">
+        <div class="para">
+            <h1 class="sech1">BACKEND: NODEJS | PHP | PYTHON | RUBY | PERL | C# | JAVA | GO:</h1>
+            <p class="secp">Back-end focused:
+                1) Scripting languages like PHP, Python, Ruby, Perl, Node.js, or Compiled languages like C#, Java or Go.
+                2) Automated testing frameworks for the language being used
+                3) Application Data Access
+                4) Application Business Logic
+                5) Database administration
+                6) Scalability
+                7) High availability
+                8) Security concerns, authentication and authorization
+                9) Software Architecture
+                10) Data transformation
+                11) Backup methods and software.</p>
+        </div>
+        <div class="thumb">
+            <img src="https://source.unsplash.com/1600x900/?programming,php" alt="">
+        </div>
+    </section>
+    <hr>
+    <section class="secondSection">
+        <div class="para">
+            <h1 class="sech1">ANDROID APP DEVELOPMENT: JAVA | KOTLIN | C, C++:</h1>
+            <p class="secp">Android software development is the process by which applications are created for devices
+                running the Android operating system. Google states that[3] "Android apps can be written using Kotlin,
+                Java, and C++ languages" using the Android software development kit (SDK), while using other languages
+                is also possible. All non-JVM languages, such as Go, JavaScript, C, C++ or assembly, need the help of
+                JVM language code, that may be supplied by tools, likely with restricted API support. Some programming
+                languages and tools allow cross-platform app support (i.e. for both Android and iOS). Third party tools,
+                development environments, and language support have also continued to evolve and expand since the
+                initial SDK was released in 2008. The official Android app distribution mechanism to end users is Google
+                Play; it also allows staged gradual app release, as well as distribution of pre-release app versions to
+                testers.</p>
+        </div>
+        <div class="thumb">
+            <img src="https://source.unsplash.com/1600x900/?coding,java" alt="">
+        </div>
+    </section>
+    <hr>
+    <section class="contactSection" id="contact">
+        <h1>Contact Us</h1>
+        <form action="#" method="POST" class="contactSection contactform">
+            <input type="text" name="name" id="name" placeholder="Enter Your Name">
+            <input type="text" name="email" id="emial" placeholder="Enter Your Email Address">
+            <input type="text" name="number" id="number" placeholder="Enter Your Mobile Number">
+            <textarea name="address" id="address" cols="30" rows="10" placeholder="Enter your Address..."></textarea>
+            <textarea name="more" id="more" cols="30" rows="10" placeholder="Tell us more About You..."></textarea>
+            <button class="btn-dark">Submit</button>
+        </form>
+
+    </section>
+
+    <footer>
+        <h3>copyright<i class="fa fa-copyright" aria-hidden="true">Coding School. All right reserved!</i></h3>
+    </footer>
+
+    <script src="js/resp.js"></script>
+</body>
+
+</html>

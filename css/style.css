@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    margin: 0rem;
+    padding: 0rem;
+}
+html{
+    scroll-behavior: smooth;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    width: 20vw;
+    align-items: center;
+}
+.logo img{
+   height: 9vh;
+   /* width: 10vw; */
+   border: 2px solid white ;
+   border-radius: 5px;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blue; */
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+navbar background{
+    width:100vw;
+}
+
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 75vw;
+
+}
+.nav-list li{
+    list-style: none;
+    margin: 1rem 1rem;
+
+}
+.nav-list li a{
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.nav-list li a:hover{
+    color: rgb(21, 255, 0);
+}
+
+.rightnav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2.3rem;
+/* background-color: red; */
+width: 17vw;
+text-align: center;
+
+}
+
+#search{
+    padding: 0.07rem;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    outline: none;
+    text-align: center;
+    border: 0.2rem solid blue;
+}
+
+.btn-sm{
+    padding: 0.07rem;
+    margin: 0 .25rem;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    background-color: rgb(24, 21, 24);
+    color: rgba(252, 247, 247, 0.7);
+    cursor: pointer;
+    vertical-align: middle;
+    border: .1rem solid white;
+
+}
+.btn-sm:hover{
+    background-color: rgb(1, 253, 35);
+    color: rgb(17, 16, 16);
+}
+
+.background{
+    background:rgba(0, 0,0, 0.7)  url(../image/bg.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.firstSection{
+    height: 100vh;
+}
+
+.main-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 70vh;
+    margin: auto;
+    width: 40vw;
+}
+
+.firsthalf{
+    width: 20vw;
+    height: 14vh;
+    display: block;
+   margin: auto;
+}
+
+.firsthalf h1{
+    color:rgb(228, 11, 228)
+}
+
+
+.firsthalf p{
+    font-size: 1rem;
+    color: white;
+     
+}
+
+
+.secondhalf{
+    height: 14vh;
+    width: 20vw;
+}
+.secondhalf img{
+   border-radius: 2rem;
+   display: block;
+   margin: auto;
+}
+
+.btn{
+    font-size: 1rem;
+    border-radius: 1rem;
+    border: 0.15rem solid rgb(217, 255, 0);
+    background-color: red;
+    color: white;
+    padding: 0.4rem;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(7, 20, 209);
+    color: whitesmoke;
+}
+
+.secondSection{
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 5rem 10rem;
+font-family: 'Ubuntu', sans-serif;
+}
+.reverse{
+flex-direction: row-reverse;
+}
+
+.para{
+    padding: 0rem 1rem;
+}
+
+.thumb img{
+width:25vw;
+border: 0.2rem solid greenyellow;
+}
+
+.contactSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: .5rem;
+    background-color: darkorange;
+}
+.contactSection h1{
+    font-size: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: underline;
+    color: rgb(17, 255, 37);
+
+}
+.contactform{
+    flex-direction: column;
+}
+
+input,textarea{
+    margin: .5rem;
+    padding: .3rem 5rem;
+    border-radius: 1.1rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: .95rem;
+    outline: none;
+    text-align: center;
+}
+
+.btn-dark{
+    background-color: blue;
+    color: white;
+    border: .2rem solid rgb(7, 248, 7);
+    padding: .2rem 11rem;
+    font-size: 1.2rem;
+    border-radius: 1.1rem;
+    cursor: pointer;
+
+}
+.btn-dark:hover{
+    background-color: black;
+    color: white;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(255, 0, 179);
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.burger{
+    display: none;
+    position:absolute;
+    right: 1rem;
+    top: 1rem;
+}
+.line{
+    width:8.5vw;
+    height: .45vh;
+    background-color:rgb(255, 253, 253);
+    margin: .2rem .2rem;
+
+}
